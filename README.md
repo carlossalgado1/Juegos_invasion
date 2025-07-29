@@ -1,33 +1,26 @@
-🕹️ Invasión Espacial – Juego Arcade en Python
-Juego arcade 2D donde el jugador debe eliminar naves enemigas antes de que lleguen al borde inferior de la pantalla. Está desarrollado en Python y utiliza la biblioteca pygame.
+# 🕹️ Invasión Espacial – Juego Arcade en Python
 
-🎮 Características
-Movimiento del jugador con las flechas del teclado
+Juego arcade 2D donde el jugador debe eliminar naves enemigas antes de que lleguen al borde inferior de la pantalla. Está desarrollado en Python y utiliza la biblioteca `pygame`.
 
-Disparo de proyectiles con barra espaciadora
+## 🎮 Características
 
-Generación aleatoria de enemigos
+- Movimiento del jugador con flechas del teclado
+- Disparo de proyectiles con barra espaciadora
+- Generación aleatoria de enemigos
+- Movimiento de enemigos
+- Detección de colisiones
+- Sistema de puntaje
+- Música de fondo y efectos de sonido
+- Pantalla de fin de juego
 
-Movimiento de enemigos
+## ⚙️ Requisitos
 
-Detección de colisiones
+- Python 3.x
+- pygame
 
-Sistema de puntaje
+Instalación de dependencias:
 
-Sonido de fondo y efectos
-
-Finalización del juego al alcanzar condiciones límite
-
-⚙️ Requisitos
-Python 3.x
-
-pygame
-
-Para instalar pygame:
-
-bash
-Copy
-Edit
+```bash
 pip install pygame
 🚀 Cómo ejecutar el juego
 Cloná el repositorio o descargá los archivos.
@@ -40,7 +33,7 @@ bash
 Copy
 Edit
 python main.py
-(Suponiendo que tu archivo principal se llama main.py)
+(Suponiendo que el archivo principal se llama main.py)
 
 📁 Estructura del proyecto
 css
@@ -57,3 +50,10 @@ invasion-espacial/
 │   ├── explosion.wav
 │   └── background.mp3
 └── README.md
+📌 Este juego fue desarrollado como parte de mi formación práctica en Python.
+
+css
+Copy
+Edit
+
+¿Querés que agreguemos un GIF o video de demo más adelante también? Podés subirlo y lo insertamos fácilmente.
