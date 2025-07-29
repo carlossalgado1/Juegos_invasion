@@ -8,10 +8,10 @@ pygame.init()
 # Pantalla
 pantalla = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Invasión Espacial")
-pygame.display.set_icon(pygame.image.load("ovni.png"))
+pygame.display.set_icon(pygame.image.load("imagenes/ovni.png"))
 
 # Fondo con imagen
-fondo = pygame.transform.scale(pygame.image.load("espacio.jpg"), (800, 600))
+fondo = pygame.transform.scale(pygame.image.load("imagenes/espacio.jpg"), (800, 600))
 
 # Fuente
 fuente = pygame.font.Font(None, 48)
@@ -24,14 +24,14 @@ JUEGO_TERMINADO = False
 JUEGO_GANADO = False
 
 # Jugador
-img_jugador = pygame.image.load("astronave.png")
+img_jugador = pygame.image.load("imagenes/astronave.png")
 jugador_x = 370
 jugador_y = 520
 jugador_x_cambio = 0
 velocidad_jugador = 3
 
 # Enemigos
-img_enemigo = pygame.image.load("nave-espacial.png")
+img_enemigo = pygame.image.load("imagenes/nave-espacial.png")
 num_enemigos = 6
 enemigos = []
 
@@ -48,7 +48,7 @@ def crear_enemigos():
 crear_enemigos()
 
 # Bala
-img_bala = pygame.image.load("bala.png")
+img_bala = pygame.image.load("imagenes/bala.png")
 bala_x = 0
 bala_y = jugador_y
 bala_y_cambio = 4
