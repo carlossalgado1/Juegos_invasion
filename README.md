@@ -33,7 +33,6 @@ bash
 Copy
 Edit
 python main.py
-(Suponiendo que el archivo principal se llama main.py)
 
 📁 Estructura del proyecto
 css
@@ -45,15 +44,5 @@ invasion-espacial/
 │   ├── player.png
 │   ├── enemy.png
 │   └── background.jpg
-├── sounds/
-│   ├── laser.wav
-│   ├── explosion.wav
-│   └── background.mp3
 └── README.md
 📌 Este juego fue desarrollado como parte de mi formación práctica en Python.
-
-css
-Copy
-Edit
-
-¿Querés que agreguemos un GIF o video de demo más adelante también? Podés subirlo y lo insertamos fácilmente.
